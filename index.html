@@ -9,30 +9,30 @@
     <script src="main.js" defer></script>
 </head>
 <body>
-    <div class="calculator-grid">
-        <div class="output">
-            <div data-previous-operand class="previous-operand"></div>
-            <div data-current-operand class="current-operand"></div>
-        </div>
-        <button data-all-clear class="span-two">AC</button>
-        <button data-delete >DEL</button>
-        <button data-operation >÷</button>
-        <button data-number>1</button>
-        <button data-number>2</button>
-        <button data-number>3</button>
-        <button data-operation>*</button>
-        <button data-number>4</button>
-        <button data-number>5</button>
-        <button data-number>6</button>
-        <button data-operation>+</button>
-        <button data-number>7</button>
-        <button data-number>8</button>
-        <button data-number>9</button>
-        <button data-operation>-</button>
-        <button data-number>.</button>
-        <button data-number>0</button>
-        <button data-equals class="span-two">=</button>
-
-    </div>
+    <h1>Simple Calculator</h1>
+    <section class="container-top">
+        <sectio class="display-window">
+            <span id="placeToPutEquation">0</span>
+            <span id="placeToPutResult">0</span>
+        </section>
+    </section>    
+    <ul>
+        <li id="zero"><button>0</button></li>
+        <li id="one"><button>1</button></li>
+        <li id="two"><button>2</button></li>
+        <li id="three"><button>3</button></li>
+        <li id="four"><button>4</button></li>
+        <li id="five"><button>5</button></li>
+        <li id="six"><button>6</button></li>
+        <li id="seven"><button>7</button></li>
+        <li id="eight"><button>8</button></li>
+        <li id="nine"><button>9</button></li>
+        <li id="plus"><button>+</button></li>
+        <li id="minus"><button>-</button></li>
+        <li id="multiply"><button>*</button></li>
+        <li id="equals"><button>=</button></li>
+        <li id="divide"><button>/</button></li>
+        <li id="clear"><button>clear</button></li>
+    </ul>
 </body>
 </html>
